@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solutions</title>
+</head>
+<body>
+    <h1>Solutions</h1>
+    <div id="solutions-list"></div>
+
+    <script>
+        const repoOwner = 'em-blass';
+        const repoName = 'summer60';
+        const folderPath = 'solutions';
+
+        fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${folderPath}?ref=main`)
+            .then(response => response.json())
+            .then(files => {
+                const listElement = document.getElementById('solutions-list');
+                files.forEach(file => {
+                    const fileLink = document.createElement('a');
+                    fileLink.href = file.html_url;
+                    fileLink.textContent = file.name;
+                    listElement.appendChild(fileLink);
+                    listElement.appendChild(document.createElement('br'));
+                });
+            });
+    </script>
+</body>
+</html>
