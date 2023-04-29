@@ -1,93 +1,198 @@
-/* Reset some default browser styles */
+/* Global styles */
+
 html {
     box-sizing: border-box;
+    font-size: 62.5%;
 }
 
-*, *:before, *:after {
+*, *::before, *::after {
     box-sizing: inherit;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
     line-height: 1.6;
+    color: #444;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #777;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover,
+a:focus {
     color: #333;
-    margin: 0;
-    padding: 0;
 }
 
-/* Global container for content */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
-}
+/* Header */
 
-/* Header and Navigation */
 header {
-    background-color: #333;
-    padding: 1rem 0;
-    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1.5rem 0;
 }
 
-header h1 {
-    color: #fff;
-    margin: 0;
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
+header .logo {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #333;
+}
+
+header nav {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-nav ul li {
-    margin-right: 1rem;
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
-nav ul li:last-child {
+header nav ul li {
+    margin: 0 1rem; 
+}
+
+header nav ul li:last-child {
     margin-right: 0;
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+header nav ul li a {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #777;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.2s ease-in-out;
+}
+
+header nav ul li a:hover,
+header nav ul li a:focus {
+    color: #333;
 }
 
 /* Sections */
+
 section {
-    margin: 2rem 0;
+    margin: 4rem 0;
+    padding: 0 1rem;
 }
 
 section h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 0.5rem;
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #eee;
 }
 
-section ul, section ol {
-    padding-left: 1.5rem;
+section ul,
+section ol {
+    padding-left: 2rem;
 }
 
-section ul li, section ol li {
-    margin-bottom: 0.5rem;
+section ul li,
+section ol li {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-bottom: 1.2rem;
 }
 
 section p {
-    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-bottom: 2rem;
 }
 
 section code {
-    font-family: 'Courier New', monospace;
-    background-color: #f4f4f4;
-    padding: 2px 4px;
+    font-family: 'Fira Code', monospace;
+    font-size: 1.4rem;
+    color: #333;
+    background-color: #f5f5f5;
+    padding: 0.5rem 1rem;
     border-radius: 3px;
 }
 
 /* Footer */
+
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
+    padding: 4rem 0;
+    margin-top: 6rem;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .logo {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+footer p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-bottom: 0;
+}
+
+footer ul {
+    list-style: none;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    footer ul li {
+    margin: 0 1.5rem;
+}
+
+footer ul li a {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+footer ul li a:hover,
+footer ul li a:focus {
+    color: #aaa;
+}
+
+@media screen and (max-width: 767px) {
+    header .container {
+    flex-direction: column;
+    }
+    header .logo {
+    margin-bottom: 1rem;
+    }
+    header nav {
+    margin-top: 1.5rem;
+    }
+    header nav ul {
+    flex-direction: column;
+    }
+    header nav ul li {
+    margin: 1rem 0;
+    }
 }
