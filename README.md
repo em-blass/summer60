@@ -14,7 +14,7 @@ This repository contains my solutions and notes for each problem, as well as blo
 The challenge consists of three primary stages, each with specific focus areas:
 
 1. Review Python fundamentals, data structures, and algorithms (20 days)
- - In this stage, I will concentrate on learning the essential data structures and algorithms. My focus will be on the following:
+ - My focus will be on the following:
 
    * Data Structures
    * Dynamic Array
@@ -47,8 +47,6 @@ The challenge consists of three primary stages, each with specific focus areas:
    * Finding strongly connected components in a graph
 
 2. Solve LeetCode problems (40 days)
- - After gaining familiarity with the data structures and algorithms, I will practice the following exercises at least 2-3 times:
-
    * Implement an ArrayList from scratch
    * Reverse a linked list
    * Implement a Stack & Queue using Array
@@ -64,6 +62,51 @@ The challenge consists of three primary stages, each with specific focus areas:
 
 3. Blog about progress (periodically throughout the challenge)
  - As I work through the challenge, I will document my progress, learning, and insights in blog posts. This will help solidify my understanding and serve as a valuable resource for future reference.
+
+## LeetCode Problems (Ordered)
+
+Throughout this challenge, I will be focusing on completing 40 LeetCode problems ranging from easy to medium difficulty. These problems are chosen to help me gain a deeper understanding of various data structures and algorithms. Here's a list of the 40 problems I will be working on:
+
+Two Sum
+Valid Parentheses
+Merge Two Sorted Lists
+Best Time to Buy and Sell Stock
+Valid Palindrome
+Invert Binary Tree
+Valid Anagram
+Binary Search
+Flood Fill
+Lowest Common Ancestor of a Binary Search Tree
+Balanced Binary Tree
+Linked List Cycle
+Implement Queue using Stacks
+First Bad Version
+Ransom Note
+Climbing Stairs
+Longest Palindrome
+Reverse Linked List
+Majority Element
+Add Binary
+Diameter of Binary Tree
+Middle of the Linked List
+Maximum Depth of Binary Tree
+Contains Duplicate
+Maximum Subarray
+Insert Interval
+01 Matrix
+K Closest Points to Origin
+Longest Substring Without Repeating Characters
+3Sum
+Binary Tree Level Order Traversal
+Clone Graph
+Evaluate Reverse Polish Notation
+Course Schedule
+Implement Trie (Prefix Tree)
+Coin Change
+Product of Array Except Self
+Min Stack
+Validate Binary Search Tree
+Number of Islands
 
 ## Repository Structure
 
