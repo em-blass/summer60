@@ -47,24 +47,24 @@ The challenge consists of three primary stages, each with specific focus areas:
    * Finding strongly connected components in a graph
 
 2. Solve LeetCode problems (40 days)
-- After gaining familiarity with the data structures and algorithms, I will practice the following exercises at least 2-3 times:
+ - After gaining familiarity with the data structures and algorithms, I will practice the following exercises at least 2-3 times:
 
-  * Implement an ArrayList from scratch
-  * Reverse a linked list
-  * Implement a Stack & Queue using Array
-  * Implement a HashTable with simple hashing functions
-  * Implement a Graph using Adjacency List, and then write functions for BFS & DFS
-  * Write the binary search algorithm both recursively and iteratively
-  * Write the merge sort algorithm
-  * Write the quicksort algorithm
-  * Print binary tree using DFS (in-order, pre-order, and post-order) and BFS
-  * Memorize time & space complexities for common algorithms
-  * Implement a trie
-  * Learn important bit manipulation tricks
-  * Depending on my familiarity with data structures and algorithms, reviewing these topics may take 2 weeks to 3 months, or up to 6 months for total beginners.
+   * Implement an ArrayList from scratch
+   * Reverse a linked list
+   * Implement a Stack & Queue using Array
+   * Implement a HashTable with simple hashing functions
+   * Implement a Graph using Adjacency List, and then write functions for BFS & DFS
+   * Write the binary search algorithm both recursively and iteratively
+   * Write the merge sort algorithm
+   * Write the quicksort algorithm
+   * Print binary tree using DFS (in-order, pre-order, and post-order) and BFS
+   * Memorize time & space complexities for common algorithms
+   * Implement a trie
+   * Learn important bit manipulation tricks
+   * Depending on my familiarity with data structures and algorithms, reviewing these topics may take 2 weeks to 3 months, or up to 6 months for total beginners.
 
 3. Blog about progress (periodically throughout the challenge)
-- As I work through the challenge, I will document my progress, learning, and insights in blog posts. This will help solidify my understanding and serve as a valuable resource for future reference.
+ - As I work through the challenge, I will document my progress, learning, and insights in blog posts. This will help solidify my understanding and serve as a valuable resource for future reference.
 
 ## Repository Structure
 
