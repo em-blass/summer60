@@ -82,4 +82,4 @@ The challenge consists of three primary stages, each with specific focus areas:
 
 ## Conclusion
 
-This project is designed to help you improve your Python programming and problem-solving skills. By following the schedule and completing the tasks, you'll gain a deep understanding of various data structures and algorithms, and be well-equipped to tackle coding challenges in the future. Good luck!
+This project is intended to enhance my Python programming and problem-solving skills. By adhering to the schedule and finishing the tasks, I hope to acquire a thorough comprehension of diverse data structures and algorithms, which will equip me to confront coding challenges in the future. You can also utilize this guide to support you in your endeavors!
