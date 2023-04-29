@@ -61,7 +61,7 @@ The challenge consists of three primary stages, each with specific focus areas:
 3. Blog about progress (periodically throughout the challenge)
  - As I work through the challenge, I will document my progress, learning, and insights in blog posts. This will help solidify my understanding and serve as a valuable resource for future reference.
 
-## LeetCode Problems (Ordered)
+## LeetCode (Ordered)
 
 Throughout this challenge, I will be focusing on completing 40 LeetCode problems ranging from easy to medium difficulty. These problems are chosen to help me gain a deeper understanding of various data structures and algorithms. Here's a list of the 40 problems I will be working on:
 
