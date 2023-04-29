@@ -67,46 +67,48 @@ The challenge consists of three primary stages, each with specific focus areas:
 
 Throughout this challenge, I will be focusing on completing 40 LeetCode problems ranging from easy to medium difficulty. These problems are chosen to help me gain a deeper understanding of various data structures and algorithms. Here's a list of the 40 problems I will be working on:
 
-Two Sum
-Valid Parentheses
-Merge Two Sorted Lists
-Best Time to Buy and Sell Stock
-Valid Palindrome
-Invert Binary Tree
-Valid Anagram
-Binary Search
-Flood Fill
-Lowest Common Ancestor of a Binary Search Tree
-Balanced Binary Tree
-Linked List Cycle
-Implement Queue using Stacks
-First Bad Version
-Ransom Note
-Climbing Stairs
-Longest Palindrome
-Reverse Linked List
-Majority Element
-Add Binary
-Diameter of Binary Tree
-Middle of the Linked List
-Maximum Depth of Binary Tree
-Contains Duplicate
-Maximum Subarray
-Insert Interval
-01 Matrix
-K Closest Points to Origin
-Longest Substring Without Repeating Characters
-3Sum
-Binary Tree Level Order Traversal
-Clone Graph
-Evaluate Reverse Polish Notation
-Course Schedule
-Implement Trie (Prefix Tree)
-Coin Change
-Product of Array Except Self
-Min Stack
-Validate Binary Search Tree
-Number of Islands
+* Two Sum
+* Valid Parentheses
+* Two Sum
+* Valid Parentheses
+* Merge Two Sorted Lists
+* Best Time to Buy and Sell Stock
+* Valid Palindrome
+* Invert Binary Tree
+* Valid Anagram
+* Binary Search
+* Flood Fill
+* Lowest Common Ancestor of a Binary Search Tree
+* Balanced Binary Tree
+* Linked List Cycle
+* Implement Queue using Stacks
+* First Bad Version
+* Ransom Note
+* Climbing Stairs
+* Longest Palindrome
+* Reverse Linked List
+* Majority Element
+* Add Binary
+* Diameter of Binary Tree
+* Middle of the Linked List
+* Maximum Depth of Binary Tree
+* Contains Duplicate
+* Maximum Subarray
+* Insert Interval
+* 01 Matrix
+* K Closest Points to Origin
+* Longest Substring Without Repeating Characters
+* 3Sum
+* Binary Tree Level Order Traversal
+* Clone Graph
+* Evaluate Reverse Polish Notation
+* Course Schedule
+* Implement Trie (Prefix Tree)
+* Coin Change
+* Product of Array Except Self
+* Min Stack
+* Validate Binary Search Tree
+* Number of Islands
 
 ## Repository Structure
 
