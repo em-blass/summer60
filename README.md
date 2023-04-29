@@ -13,7 +13,7 @@ This repository contains my solutions and notes for each problem, as well as blo
 
 The challenge consists of three primary stages, each with specific focus areas:
 
-Review Python fundamentals, data structures, and algorithms (20 days)
+1. Review Python fundamentals, data structures, and algorithms (20 days)
 - In this stage, I will concentrate on learning the essential data structures and algorithms. I will avoid overstudying topics such as advanced graph algorithms, spanning trees, or A* search. My focus will be on the following:
 
 * Data Structures
@@ -46,7 +46,7 @@ Stability in Sorting
 * Counting connected components in a graph
 * Finding strongly connected components in a graph
 
-Solve LeetCode problems (40 days)
+2. Solve LeetCode problems (40 days)
 - After gaining familiarity with the data structures and algorithms, I will practice the following exercises at least 2-3 times:
 
 * Implement an ArrayList from scratch
@@ -63,7 +63,7 @@ Solve LeetCode problems (40 days)
 * Learn important bit manipulation tricks
 * Depending on my familiarity with data structures and algorithms, reviewing these topics may take 2 weeks to 3 months, or up to 6 months for total beginners.
 
-Blog about progress (periodically throughout the challenge)
+3. Blog about progress (periodically throughout the challenge)
 - As I work through the challenge, I will document my progress, learning, and insights in blog posts. This will help solidify my understanding and serve as a valuable resource for future reference.
 
 ## Repository Structure
