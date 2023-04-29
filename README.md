@@ -14,37 +14,37 @@ This repository contains my solutions and notes for each problem, as well as blo
 The challenge consists of three primary stages, each with specific focus areas:
 
 1. Review Python fundamentals, data structures, and algorithms (20 days)
-- In this stage, I will concentrate on learning the essential data structures and algorithms. My focus will be on the following:
+ - In this stage, I will concentrate on learning the essential data structures and algorithms. My focus will be on the following:
 
-  * Data Structures
-  * Dynamic Array
-  * Linked List
-  * Stack & Queue
-  * Hash Tables
-  * Binary Search Tree
-  * Binary Heaps & Priority Queue
-  * Graphs
-  * Trie
-  * Algorithms
-  * Bit Manipulation & Numbers (unsigned vs. signed numbers)
-  Stability in Sorting
-  * Mergesort
-  * Quicksort
-  * Heapsort (in-place for O(1) space)
-  * Binary Search
-  * Selections (Kth Smallest Elements: Sort, QuickSelect, Mediums of Mediums)
-  * Permutations
-  * Subsets
-  * BFS Graph
-  * DFS Graph
-  * Dijkstra's Algorithm (understand the concept, no need to implement)
-  * Tree Traversals (BFS, DFS: in-order, pre-order, post-order; recursive and iterative)
-  * External Sort (know the concept)
-  * NP-Complete (understand the concept)
-  * Topological Sort
-  * Detecting cycles in undirected and directed graphs
-  * Counting connected components in a graph
-  * Finding strongly connected components in a graph
+   * Data Structures
+   * Dynamic Array
+   * Linked List
+   * Stack & Queue
+   * Hash Tables
+   * Binary Search Tree
+   * Binary Heaps & Priority Queue
+   * Graphs
+   * Trie
+   * Algorithms
+   * Bit Manipulation & Numbers (unsigned vs. signed numbers)
+   Stability in Sorting
+   * Mergesort
+   * Quicksort
+   * Heapsort (in-place for O(1) space)
+   * Binary Search
+   * Selections (Kth Smallest Elements: Sort, QuickSelect, Mediums of Mediums)
+   * Permutations
+   * Subsets
+   * BFS Graph
+   * DFS Graph
+   * Dijkstra's Algorithm (understand the concept, no need to implement)
+   * Tree Traversals (BFS, DFS: in-order, pre-order, post-order; recursive and iterative)
+   * External Sort (know the concept)
+   * NP-Complete (understand the concept)
+   * Topological Sort
+   * Detecting cycles in undirected and directed graphs
+   * Counting connected components in a graph
+   * Finding strongly connected components in a graph
 
 2. Solve LeetCode problems (40 days)
 - After gaining familiarity with the data structures and algorithms, I will practice the following exercises at least 2-3 times:
