@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Posts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Summer60 Challenge</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="notes.html">Notes</a></li>
+                <li><a href="solutions.html">Solutions</a></li>
+                <li><a href="blog_posts.html">Blog Posts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Blog Posts</h1>
+        <div id="blog-posts-list"></div>
+    </div>
+
+    <script>
+        const repoOwner = 'em-blass';
+        const repoName = 'summer60';
+        const folderPath = 'blog_posts';
+
+        fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${folderPath}?ref=main`)
+            .then(response => response.json())
+            .then(files => {
+                const listElement = document.getElementById('blog-posts-list');
+                files.forEach(file => {
+                    const fileLink = document.createElement('a');
+                    fileLink.href = file.html_url;
+                    fileLink.textContent = file.name;
+                    listElement.appendChild(fileLink);
+                    listElement.appendChild(document.createElement('br'));
+                });
+            });
+    </script>
+</body>
+</html>
