@@ -44,7 +44,7 @@ The challenge consists of three primary stages, each with specific focus areas:
    * Counting connected components in a graph
    * Finding strongly connected components in a graph
 
-2. Solve LeetCode problems (40 days)
+2. Solve LeetCode problems + Continue review (40 days)
    * Implement an ArrayList from scratch
    * Reverse a linked list
    * Implement a Stack & Queue using Array
