@@ -59,7 +59,7 @@ The challenge consists of three primary stages, each with specific focus areas:
    * Learn important bit manipulation tricks
 
 3. Blog about progress (periodically throughout the challenge)
- - As I work through the challenge, I will document my progress, learning, and insights in blog posts. This will help solidify my understanding and serve as a valuable resource for future reference.
+   * As I work through the challenge, I will document my progress, learning, and insights in blog posts. This will help solidify my understanding and serve as a valuable resource for future reference.
 
 ## LeetCode (Ordered)
 
