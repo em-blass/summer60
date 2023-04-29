@@ -29,5 +29,5 @@ Understand the time and space complexity of your solution.
 Compare your solution with the one provided in the solutions/ directory.
 Write periodic blog posts to document your progress and learning.
 
-#Conclusion
+# Conclusion
 This project is designed to help you improve your Python programming and problem-solving skills. By following the schedule and completing the tasks, you'll gain a deep understanding of various data structures and algorithms, and be well-equipped to tackle coding challenges in the future. Good luck!
