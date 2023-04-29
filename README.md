@@ -14,8 +14,6 @@ This repository contains my solutions and notes for each problem, as well as blo
 The challenge consists of three primary stages, each with specific focus areas:
 
 1. Review Python fundamentals, data structures, and algorithms (20 days)
- - My focus will be on the following:
-
    * Data Structures
    * Dynamic Array
    * Linked List
