@@ -61,7 +61,6 @@ The challenge consists of three primary stages, each with specific focus areas:
    * Memorize time & space complexities for common algorithms
    * Implement a trie
    * Learn important bit manipulation tricks
-   * Depending on my familiarity with data structures and algorithms, reviewing these topics may take 2 weeks to 3 months, or up to 6 months for total beginners.
 
 3. Blog about progress (periodically throughout the challenge)
  - As I work through the challenge, I will document my progress, learning, and insights in blog posts. This will help solidify my understanding and serve as a valuable resource for future reference.
