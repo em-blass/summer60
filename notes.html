@@ -33,11 +33,17 @@
             .then(files => {
                 const listElement = document.getElementById('notes-list');
                 files.forEach(file => {
-                    const fileLink = document.createElement('a');
-                    fileLink.href = file.html_url;
-                    fileLink.textContent = file.name;
-                    listElement.appendChild(fileLink);
-                    listElement.appendChild(document.createElement('br'));
+                    fetch(file.download_url)
+                        .then(response => response.text())
+                        .then(content => {
+                            const noteTitle = document.createElement('h2');
+                            noteTitle.textContent = file.name.replace('.md', '');
+                            listElement.appendChild(noteTitle);
+
+                            const noteContent = document.createElement('p');
+                            noteContent.innerHTML = content;
+                            listElement.appendChild(noteContent);
+                        });
                 });
             });
     </script>
