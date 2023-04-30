@@ -31,55 +31,57 @@ a:focus {
 }
 
 /* Header */
+
 header {
-background-color: #fff;
-box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-padding: 5rem 0;
-display: flex;
-justify-content: space-between;
-align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
-font-size: 6rem;
-font-weight: 700;
-color: #333;
-margin-right: 2rem;
+    font-size: 6rem;
+    font-weight: 700;
+    color: #333;
+    margin-left: 13rem;
 }
 
 header nav {
-flex-basis: 70%;
-display: flex;
-justify-content: flex-end;
+    flex-basis: 30%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10rem;
 }
 
 header nav ul {
-list-style: none;
-margin: 0;
-padding: 0;
-display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 header nav ul li {
-margin: 0 1rem;
+    margin: 0 1rem;
 }
 
 header nav ul li:last-child {
-margin-right: 0;
+    margin-right: 0;
 }
 
 header nav ul li a {
-font-size: 1.4rem;
-font-weight: 600;
-color: #777;
-text-transform: uppercase;
-letter-spacing: 1px;
-transition: all 0.2s ease-in-out;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #777;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.2s ease-in-out;
 }
 
 header nav ul li a:hover,
 header nav ul li a:focus {
-color: #333;
+    color: #333;
 }
 
 /* Sections */
@@ -147,49 +149,58 @@ footer .logo {
 }
 
 footer p {
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-    margin-bottom: 0;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-bottom: 0;
 }
 
 footer ul {
-    list-style: none;   
-    display: flex;
-    justify-content: center;
-    align-items: center;
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
-    footer ul li {
-    margin: 0 1.5rem;
+footer ul li {
+margin: 0 1.5rem;
 }
 
 footer ul li a {
-    font-size: 1.6rem;
-    font-weight: 600;
-    color: #fff;
-    text-decoration: none;
-    transition: all 0.2s ease-in-out;
+font-size: 1.6rem;
+font-weight: 600;
+color: #fff;
+text-decoration: none;
+transition: all 0.2s ease-in-out;
 }
 
 footer ul li a:hover,
 footer ul li a:focus {
-    color: #aaa;
+color: #aaa;
 }
 
 @media screen and (max-width: 767px) {
-    header .container {
-    flex-direction: column;
-    }
-    header .logo {
-    margin-bottom: 1rem;
-    }
-    header nav {
-    margin-top: 1.5rem;
-    }
-    header nav ul {
-    flex-direction: column;
-    }
-    header nav ul li {
-    margin: 1rem 0;
-    }
+  header .container {
+  flex-direction: column;
+  }
+  header .logo {
+  margin-bottom: 1rem;
+  }
+  header nav {
+  margin-top: 1.5rem;
+  }
+  header nav ul {
+  flex-direction: column;
+  }
+  header nav ul li {
+  margin: 1rem 0;
+  }
+
+  footer .container {
+     flex-direction: column;
+     align-items: center;
+  }
+
+  footer .logo {
+      margin-bottom: 1rem;
+  }
 }
