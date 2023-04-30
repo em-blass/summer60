@@ -19,7 +19,7 @@
         </nav>
     </header>
     <div class="container">
-        <h1>Blog Posts</h1>
+        <h2>Blog Posts</h2>
         <div id="blog-posts-list"></div>
     </div>
 
@@ -38,7 +38,7 @@
                         .then(response => response.text())
                         .then(content => {
                             // Create elements to display the blog post
-                            const blogPostTitle = document.createElement('h2');
+                            const blogPostTitle = document.createElement('h3');
                             blogPostTitle.textContent = file.name;
                             listElement.appendChild(blogPostTitle);
 
