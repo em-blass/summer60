@@ -36,7 +36,7 @@
                     fetch(file.download_url)
                         .then(response => response.text())
                         .then(content => {
-                            const noteTitle = document.createElement('h2');
+                            const noteTitle = document.createElement('h3');
                             noteTitle.textContent = file.name.replace('.md', '');
                             listElement.appendChild(noteTitle);
 
