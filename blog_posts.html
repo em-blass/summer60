@@ -33,11 +33,19 @@
             .then(files => {
                 const listElement = document.getElementById('blog-posts-list');
                 files.forEach(file => {
-                    const fileLink = document.createElement('a');
-                    fileLink.href = file.html_url;
-                    fileLink.textContent = file.name;
-                    listElement.appendChild(fileLink);
-                    listElement.appendChild(document.createElement('br'));
+                    // Fetch the content of each file
+                    fetch(file.download_url)
+                        .then(response => response.text())
+                        .then(content => {
+                            // Create elements to display the blog post
+                            const blogPostTitle = document.createElement('h2');
+                            blogPostTitle.textContent = file.name;
+                            listElement.appendChild(blogPostTitle);
+
+                            const blogPostContent = document.createElement('div');
+                            blogPostContent.innerHTML = content;
+                            listElement.appendChild(blogPostContent);
+                        });
                 });
             });
     </script>
