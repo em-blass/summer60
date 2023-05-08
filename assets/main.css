@@ -112,3 +112,53 @@ header nav ul li a:focus {
     margin: 0.5rem 0;
   }
 }
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 400px) {
+  header {
+    padding: 2rem 0;
+    flex-direction: column;
+  }
+
+  header h1 {
+    font-size: 3.5rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  header nav {
+    flex-basis: 100%;
+    justify-content: center;
+    margin-right: 2rem;
+  }
+
+  header nav ul {
+    flex-direction: row;
+  }
+
+  header nav ul li {
+    margin: 0 0.5rem;
+  }
+
+  header nav ul li a {
+    font-size: 1.2rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container section {
+    padding: 1rem 0;
+  }
+
+  .container section h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .container section p {
+    font-size: 1.4rem;
+  }
+}
