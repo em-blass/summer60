@@ -115,13 +115,14 @@ header nav ul li a:focus {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   body {
     padding: 1rem;
   }
 
   header h1 {
     font-size: 3rem;
+    margin-left; 6rem;
   }
 
   header nav ul li a {
@@ -135,5 +136,52 @@ header nav ul li a:focus {
 
   .container section p {
     font-size: 1.2rem;
+  }
+}
+
+/* Responsive styles for iPhone-like screens (390 x 844) */
+
+@media screen and (max-width: 844px) {
+  body {
+    padding: 1rem;
+  }
+
+  header {
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+
+  header h1 {
+    font-size: 4rem;
+    justify-content: center;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  header nav {
+    flex-basis: 100%;
+    justify-content: center;
+    margin-left: 7rem;
+  }
+
+  header nav ul {
+    flex-direction: row;
+  }
+
+  header nav ul li {
+    margin: 0 0.5rem;
+  }
+
+  header nav ul li a {
+    font-size: 1.2rem;
+  }
+
+  .container section h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .container section p {
+    font-size: 1.4rem;
   }
 }
