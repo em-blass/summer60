@@ -1,139 +1,85 @@
-/* Global styles */
-html {
-    box-sizing: border-box;
-    font-size: 62.5%;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer60 Challenge</title>
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/logo.png">
+</head>
 
-*, *::before, *::after {
-    box-sizing: inherit;
-}
+<body>
+    <header>
+        <h1>Summer60 Challenge</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="notes.html">Notes</a></li>
+                <li><a href="solutions.html">Solutions</a></li>
+                <li><a href="blog_posts.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="welcome">
+            <h2>Welcome</h2>
+            <p>Welcome to the Summer60 Challenge! This project aims to improve your Python programming and problem-solving skills by working through a series of LeetCode problems and other coding exercises. The goal is to complete 40 LeetCode problems and achieve 20 deep focus hours over a period of 60 days, from 5/8 to 8/1.</p>
+        </section>
 
-body {
-    font-family: 'Inter', sans-serif;
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 1.6;
-    color: #444;
-    margin: 0;
-    padding: 2rem;
-}
+        <section id="goals">
+            <h2>Goals</h2>
+            <ul>
+                <li>Complete 40 LeetCode problems with a deep understanding of each solution.</li>
+                <li>Achieve 20 deep focus hours.</li>
+            </ul>
+        </section>
 
-a {
-    color: #279;
-    text-decoration: none;
-    transition: all 0.2s ease-in-out;
-}
+        <section id="schedule">
+           <h2>Schedule</h2>
+           <p>The challenge consists of three primary stages, each with specific focus areas:</p>
+           <ol>
+              <li>Review Python fundamentals, data structures, and algorithms (20 days)</li>
+              <li>Solve LeetCode problems + continue review (40 days)</li>
+              <li>Blog about progress (periodically throughout the challenge)</li>
+           </ol>
+            <a href="https://github.com/em-blass/summer60#schedule">Detailed Schedule</a>
+        </section>
 
-a:hover,
-a:focus {
-    color: #333;
-}
+        <section id="leetcode">
+           <h2>LeetCode</h2>
+           <p>Throughout this challenge, I will be focusing on completing 40 LeetCode problems ranging from easy to medium difficulty. These problems are chosen to help me gain a deeper understanding of various data structures and algorithms. <a href="https://github.com/em-blass/summer60#leetcode-ordered">Here's a list of the 40 problems</a> I will be working on.</p>
+        </section>
+        
+        <section id="repository-structure">
+            <h2>Repository Structure</h2>
+            <ul>
+                <li><code>solutions/</code>: Contains Python code for each LeetCode problem solved during the challenge.</li>
+                <li><code>notes/</code>: Contains notes on thought processes, algorithms used, and mistakes made for each problem.</li>
+                <li><code>blog_posts/</code>: Contains blog posts detailing progress and learning throughout the challenge.</li>
+            </ul>
+        </section>
 
-/* Header */
-header {
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 4rem 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+        <section id="how-to-use">
+            <h2>How to Use This Repository</h2>
+            <ol>
+                <li>Follow the schedule and complete each day's tasks.</li>
+                <li>For each LeetCode problem, attempt to solve it in 20-30 minutes.</li>
+                <li>Take notes on your thought process, algorithms used, and mistakes made.</li>
+                <li>Understand the time and space complexity of your solution.</li>
+                <li>Compare your solution with the one provided in the solutions/ directory.</li>
+                <li>Write periodic blog posts to document your progress and learning.</li>
+            </ol>
+        </section>
 
-header h1 {
-    font-size: 5rem;
-    font-weight: 700;
-    color: #333;
-    margin-left: 5rem;
-}
-
-header nav {
-    flex-basis: 30%;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 4rem;
-}
-
-header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-header nav ul li {
-    margin: 0 1rem;
-}
-
-header nav ul li:last-child {
-    margin-right: 0;
-}
-
-header nav ul li a {
-    font-size: 1.4rem;
-    font-weight: 600;
-    color: #777;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: all 0.2s ease-in-out;
-}
-
-header nav ul li a:hover,
-header nav ul li a:focus {
-    color: #333;
-}
-
-/* Responsive styles for smaller screens */
-
-@media screen and (max-width: 767px) {
-  header {
-    flex-direction: column;
-    padding: 2rem 0;
-  }
-
-  header h1 {
-    font-size: 5rem;
-    justify-content: center;
-    margin-bottom: 1rem;
-  }
-
-  header nav {
-    flex-basis: 100%;
-    justify-content: center;
-    margin-left: 0rem;
-  }
-
-  header nav ul {
-    flex-direction: row;
-  }
-
-  header nav ul li {
-    margin: 0 0.5rem;
-  }
-
-  header nav ul li a {
-    font-size: 1.2rem;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  body {
-    padding: 1rem;
-  }
-
-  header h1 {
-    font-size: 3rem;
-  }
-
-  header nav ul li a {
-    font-size: 1rem;
-  }
-
-  .container section h2 {
-    font-size: 1.8rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .container section p {
-    font-size: 1.2rem;
-  }
-}
+        <section id="conclusion">
+            <h2>Conclusion</h2>
+            <p>This project is intended to enhance my Python programming and problem-solving skills. By adhering to the schedule and finishing the tasks, I hope to acquire a thorough comprehension of diverse data structures and algorithms, which will equip me to confront coding challenges in the future. You can also utilize this guide to support you in your endeavors!</p>
+          <br>
+          <p>
+            <a href="https://github.com/em-blass">em-blass:</a>
+            <a href="https://github.com/em-blass/summer60">summer60</a>
+          </p>
+        </section>
+    </div>
+</body>
+</html>
