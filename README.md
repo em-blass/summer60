@@ -1,6 +1,6 @@
 # Summer60 Challenge
 
-Welcome to the Summer60 Challenge! This project is aimed at improving your Python programming and problem-solving skills by working through a series of LeetCode problems and other coding exercises. The goal is to complete 40 LeetCode problems and achieve 20 deep focus hours over a period of 60 days, from 5/8 to 8/1.
+Welcome to the Summer60 Challenge! This project is aimed at improving your Python programming and problem-solving skills by working through a series of LeetCode problems and other coding exercises. The goal is to complete 40 LeetCode problems and achieve 20 deep focus hours over a period of 60 days, from 5/10 to 8/13.
 
 This repository contains my solutions and notes for each problem, as well as blog posts detailing my progress and learning.
 
