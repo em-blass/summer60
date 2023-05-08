@@ -99,7 +99,7 @@ header nav ul li a:focus {
   header nav {
     flex-basis: 100%;
     justify-content: center;
-    margin-right: 2rem;
+    margin-right: 1rem;
   }
 
   header nav ul {
