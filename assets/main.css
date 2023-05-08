@@ -1,5 +1,4 @@
 /* Global styles */
-
 html {
     box-sizing: border-box;
     font-size: 62.5%;
@@ -31,7 +30,6 @@ a:focus {
 }
 
 /* Header */
-
 header {
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -84,44 +82,16 @@ header nav ul li a:focus {
     color: #333;
 }
 
-/* ... */
-
 /* Responsive styles for smaller screens */
 
 @media screen and (max-width: 767px) {
-  header h1 {
-    font-size: 5rem;
-    font-weight: 700;
-    color: #333;
-    margin-left: 5rem;
-  }
-
-  header nav {
-      flex-basis: 30%;
-      display: flex;
-      justify-content: flex-end;
-      margin-right: 5rem;
-  }
-
-  header nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  header nav ul li {
-    margin: 0.5rem 0;
-  }
-}
-
-/* Responsive styles for smaller screens */
-@media screen and (max-width: 400px) {
   header {
-    padding: 2rem 0;
     flex-direction: column;
+    padding: 2rem 0;
   }
 
   header h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     margin-left: 2rem;
     margin-bottom: 1rem;
   }
@@ -143,22 +113,27 @@ header nav ul li a:focus {
   header nav ul li a {
     font-size: 1.2rem;
   }
+}
 
-  .container {
-    display: flex;
-    flex-direction: column;
+@media screen and (max-width: 400px) {
+  body {
+    padding: 1rem;
   }
 
-  .container section {
-    padding: 1rem 0;
+  header h1 {
+    font-size: 3rem;
+  }
+
+  header nav ul li a {
+    font-size: 1rem;
   }
 
   .container section h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 0.5rem;
   }
 
   .container section p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 }
