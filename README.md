@@ -6,8 +6,8 @@ This repository contains my solutions and notes for each problem, as well as blo
 
 ## Goals
 
-- Complete 40 LeetCode problems with a deep understanding of each solution
-- Achieve 20 deep focus hours
+- Complete 40 LeetCode problems with a deep understanding of each solution.
+- Achieve 20 deep focus hours.
 
 ## Schedule
 
