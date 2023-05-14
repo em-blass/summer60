@@ -63,7 +63,7 @@ The course consists of eight primary modules, each with specific focus areas:
 
 ## Repository Structure
 
-- `lecture Notes/`: Contains Python code and notes from learning modules.
+- `lecture_notes/`: Contains Python code and notes from learning modules.
 - `projects/`: Contains Python code and notes for projects completed throughout course.
 - `blog/`: Contains information and updates regarding my schedule, personal notes, etc.
 - `leetcode_notes/`: Contains notes and practice problems from LeetCode (problems below).
