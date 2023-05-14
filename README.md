@@ -71,3 +71,35 @@ The course consists of eight primary modules, each with specific focus areas:
 - `computer_architecture/`: Contains notes and potentially assembly code from the computer architecture module.
 - `math_cs/`: Contains notes and problem sets from the Math for Computer Science module.
 - `interview_prep/`: Contains notes and practice problems for interview preparation.
+
+## Leetcodes
+
+- Two Sum (Hash Maps)
+This problem introduces you to the concept of using hash maps to reduce time complexity.
+
+- 3Sum (Two Pointers)
+This problem helps you understand how to use pointers to scan through an array in a systematic way.
+Reverse Linked List (In-place Reversal of a Linked List)
+
+This problem is a classic linked list problem and gives you practice manipulating linked list pointers.
+Sliding Window Maximum (Two Heaps/Sliding Window)
+
+This problem combines two concepts - heaps and the sliding window technique.
+Merge Intervals (Merge Intervals)
+
+This problem helps you understand the concept of interval merging, which comes up quite often in interviews.
+Top K Frequent Elements (Top K Elements)
+
+This problem introduces you to the concept of heap-based priority queues and their application.
+Search in Rotated Sorted Array (Modified Binary Search)
+
+This problem gives you practice with binary search, particularly in a non-standard context.
+Subsets (Subsets/Backtracking)
+
+This problem introduces you to the concept of generating all subsets of a set, a common pattern for many problems involving backtracking.
+Coin Change (Dynamic Programming)
+
+This problem is a good introduction to dynamic programming, a powerful technique for solving optimization problems.
+Course Schedule (Topological Sort)
+
+This problem introduces you to the concept of topological sort, an important algorithm for dealing with problems involving dependencies or sequencing.
