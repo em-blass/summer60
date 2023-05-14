@@ -1,7 +1,5 @@
 # Comprehensive Programming Journey
 
-Welcome to your Comprehensive Programming Journey! This project is designed to enhance your programming skills, starting from the basics of Python and data structures, all the way through to algorithms, trees, graphs, databases, computer architecture, and interview preparation. The course is structured over a series of well-defined modules, with a focus on practical projects and exam preparation.
-
 ## Goals
 
 - Attain a solid understanding of Python programming and basic data structures.
