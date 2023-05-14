@@ -1,5 +1,6 @@
 # Comprehensive Programming Journey
 
+
 ## Goals
 
 - Attain a solid understanding of Python programming and basic data structures.
@@ -14,51 +15,51 @@
 
 The course consists of eight primary modules, each with specific focus areas:
 
-1. **Intro to Programming (10 days):**
+1. **Intro to Programming:**
    - Fundamentals of Python
    - Programming in Python
    - Basic Python Data Structures and Objects
    - Project: The Boredless Tourist
-   - Exam: (Part 1) and (Part 2)
+   - Exam 1
 
-2. **Intro to Data Structures (8 days):**
+2. **Intro to Data Structures:**
    - Linked Lists
    - Queues, Stacks, and HashMaps
-   - Exam 2: (Part 1) and (Part 2)
+   - Exam 2
 
-3. **Algorithms (12 days):**
+3. **Algorithms:**
    - Basic Algorithms
    - Sorting Algorithms
    - Dynamic Programming
-   - Exam 3: (Part 1) and (Part 2)
+   - Exam 3
 
-4. **Trees and Graphs (10 days):**
+4. **Trees and Graphs:**
    - Trees and Tree Traversal
    - Graphs and Graph Traversal
    - Project: Creating Recommendation Software
-   - Exam 4: (Part 1) and (Part 2)
+   - Exam 4
 
-5. **Databases (14 days):**
+5. **Databases:**
    - Database Basics
    - Working with Databases
    - Designing Relational Databases
    - Advanced PostgreSQL
    - Project: Creating a Database
-   - Exam 5: (Part 1) and (Part 2)
+   - Exam 5
 
-6. **Computer Architecture (7 days):**
+6. **Computer Architecture:**
    - Computer Architecture
    - Project: CPU Simulator
-   - Exam 6: (Part 1) and (Part 2)
+   - Exam 6
 
-7. **Math for Computer Science (7 days):**
+7. **Math for Computer Science:**
    - Math for Computer Science
    - Final Problem Set: Discrete Math
-   - Exam 7: (Part 1) and (Part 2)
+   - Exam 7
 
-8. **Interview Prep (5 days):**
+8. **Interview Prep:**
    - Interview Skills
-   - Exam 8: (Part 1) and (Part 2)
+   - Exam 8
 
 ## Repository Structure
 
@@ -70,10 +71,3 @@ The course consists of eight primary modules, each with specific focus areas:
 - `computer_architecture/`: Contains notes and potentially assembly code from the computer architecture module.
 - `math_cs/`: Contains notes and problem sets from the Math for Computer Science module.
 - `interview_prep/`: Contains notes and practice problems for interview preparation.
-
-## How to Use This Repository
-
-1. Follow the schedule and complete each day's tasks.
-2. Review the material and work on the projects.
-3. Prepare for the exams using the provided materials.
-4. Document your learning journey and progress.
