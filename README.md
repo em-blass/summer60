@@ -19,24 +19,24 @@ The course consists of eight primary modules, each with specific focus areas:
    - Programming in Python
    - Basic Python Data Structures and Objects
    - Project: The Boredless Tourist
-   - Exam: (Part 1) and (Part 2)
+   - Exam 1
 
 2. **Intro to Data Structures:**
    - Linked Lists
    - Queues, Stacks, and HashMaps
-   - Exam 2: (Part 1) and (Part 2)
+   - Exam 2
 
 3. **Algorithms:**
    - Basic Algorithms
    - Sorting Algorithms
    - Dynamic Programming
-   - Exam 3: (Part 1) and (Part 2)
+   - Exam 3
 
 4. **Trees and Graphs:**
    - Trees and Tree Traversal
    - Graphs and Graph Traversal
    - Project: Creating Recommendation Software
-   - Exam 4: (Part 1) and (Part 2)
+   - Exam 4
 
 5. **Databases:**
    - Database Basics
@@ -44,21 +44,21 @@ The course consists of eight primary modules, each with specific focus areas:
    - Designing Relational Databases
    - Advanced PostgreSQL
    - Project: Creating a Database
-   - Exam 5: (Part 1) and (Part 2)
+   - Exam 5
 
 6. **Computer Architecture:**
    - Computer Architecture
    - Project: CPU Simulator
-   - Exam 6: (Part 1) and (Part 2)
+   - Exam 6
 
 7. **Math for Computer Science:**
    - Math for Computer Science
    - Final Problem Set: Discrete Math
-   - Exam 7: (Part 1) and (Part 2)
+   - Exam 7
 
 8. **Interview Prep:**
    - Interview Skills
-   - Exam 8: (Part 1) and (Part 2)
+   - Exam 8
 
 ## Repository Structure
 
