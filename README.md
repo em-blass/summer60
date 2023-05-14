@@ -1,5 +1,6 @@
 # Comprehensive Programming Journey
 
+
 ## Goals
 
 - Attain a solid understanding of Python programming and basic data structures.
