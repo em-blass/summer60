@@ -63,14 +63,10 @@ The course consists of eight primary modules, each with specific focus areas:
 
 ## Repository Structure
 
-- `python_intro/`: Contains Python code and notes from the intro to programming module.
-- `data_structures/`: Contains code and notes about different data structures.
-- `algorithms/`: Contains code and notes about various algorithms.
-- `trees_graphs/`: Contains code and notes related to trees and graphs.
-- `databases/`: Contains SQL scripts and notes about databases.
-- `computer_architecture/`: Contains notes and potentially assembly code from the computer architecture module.
-- `math_cs/`: Contains notes and problem sets from the Math for Computer Science module.
-- `interview_prep/`: Contains notes and practice problems for interview preparation.
+- `lecture Notes/`: Contains Python code and notes from learning modules.
+- `projects/`: Contains Python code and notes for projects completed throughout course.
+- `blog/`: Contains information and updates regarding my schedule, personal notes, etc.
+- `leetcode_notes/`: Contains notes and practice problems from LeetCode (problems below).
 
 ## Leetcode Problems
 
