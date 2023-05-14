@@ -1,4 +1,4 @@
-# Comprehensive Programming Journey
+# Summer60
 
 
 ## Goals
@@ -63,11 +63,29 @@ The course consists of eight primary modules, each with specific focus areas:
 
 ## Repository Structure
 
-- `python_intro/`: Contains Python code and notes from the intro to programming module.
-- `data_structures/`: Contains code and notes about different data structures.
-- `algorithms/`: Contains code and notes about various algorithms.
-- `trees_graphs/`: Contains code and notes related to trees and graphs.
-- `databases/`: Contains SQL scripts and notes about databases.
-- `computer_architecture/`: Contains notes and potentially assembly code from the computer architecture module.
-- `math_cs/`: Contains notes and problem sets from the Math for Computer Science module.
-- `interview_prep/`: Contains notes and practice problems for interview preparation.
+- `lecture_notes/`: Contains Python code and notes from learning modules.
+- `projects/`: Contains Python code and notes for projects completed throughout course.
+- `blog/`: Contains information and updates regarding scheduling, personal notes, etc.
+- `leetcode_notes/`: Contains notes and practice problems from LeetCode (problems below).
+
+## Leetcode Problems
+
+- **Two Sum (Hash Maps)**: This problem introduces you to the concept of using hash maps to reduce time complexity.
+
+- **3Sum (Two Pointers)**: This problem helps you understand how to use pointers to scan through an array in a systematic way.
+
+- **Reverse Linked List (In-place Reversal of a Linked List)**: This problem is a classic linked list problem and gives you practice manipulating linked list pointers.
+
+- **Sliding Window Maximum (Two Heaps/Sliding Window)**: This problem combines two concepts - heaps and the sliding window technique.
+
+- **Merge Intervals (Merge Intervals)**: This problem helps you understand the concept of interval merging, which comes up quite often in interviews.
+
+- **Top K Frequent Elements (Top K Elements)**: This problem introduces you to the concept of heap-based priority queues and their application.
+
+- **Search in Rotated Sorted Array (Modified Binary Search)**: This problem gives you practice with binary search, particularly in a non-standard context.
+
+- **Subsets (Subsets/Backtracking)**: This problem introduces you to the concept of generating all subsets of a set, a common pattern for many problems involving backtracking.
+
+- **Coin Change (Dynamic Programming)**: This problem is a good introduction to dynamic programming, a powerful technique for solving optimization problems.
+
+- **Course Schedule (Topological Sort)**: This problem introduces you to the concept of topological sort, an important algorithm for dealing with problems involving dependencies or sequencing.
