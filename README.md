@@ -72,16 +72,14 @@ The course consists of eight primary modules, each with specific focus areas:
 - `math_cs/`: Contains notes and problem sets from the Math for Computer Science module.
 - `interview_prep/`: Contains notes and practice problems for interview preparation.
 
-## Leetcodes
+## Leetcode Problems
 
-- Two Sum (Hash Maps)
-This problem introduces you to the concept of using hash maps to reduce time complexity.
+- Two Sum (Hash Maps): This problem introduces you to the concept of using hash maps to reduce time complexity.
 
-- 3Sum (Two Pointers)
-This problem helps you understand how to use pointers to scan through an array in a systematic way.
-Reverse Linked List (In-place Reversal of a Linked List)
+- 3Sum (Two Pointers): This problem helps you understand how to use pointers to scan through an array in a systematic way.
 
-This problem is a classic linked list problem and gives you practice manipulating linked list pointers.
+- Reverse Linked List (In-place Reversal of a Linked List): This problem is a classic linked list problem and gives you practice manipulating linked list pointers.
+
 Sliding Window Maximum (Two Heaps/Sliding Window)
 
 This problem combines two concepts - heaps and the sliding window technique.
